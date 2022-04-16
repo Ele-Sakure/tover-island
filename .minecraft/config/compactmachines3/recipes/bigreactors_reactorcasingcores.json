@@ -1,0 +1,45 @@
+{
+  "name": "compactmachines3:bigreactors_reactorcasingcores",
+
+  "disabled": false,
+
+  "target-item": "bigreactors:reactorcasingcores",
+  "target-meta": 0,
+  "target-count": 12,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "bigreactors:ingotmetals",
+  "catalyst-meta": 2,
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 4
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 6
+    }
+  },
+  "shape": [
+    [
+      ["a", "a", "a"],
+      ["a", "_", "a"],
+      ["a", "a", "a"]
+    ],
+    [
+      ["a", "_", "a"],
+      ["_", "b", "_"],
+      ["a", "_", "a"]
+    ],
+    [
+      ["a", "a", "a"],
+      ["a", "_", "a"],
+      ["a", "a", "a"]
+    ]
+  ]
+
+}

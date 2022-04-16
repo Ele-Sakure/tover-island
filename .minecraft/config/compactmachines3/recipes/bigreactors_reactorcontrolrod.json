@@ -1,0 +1,57 @@
+{
+  "name": "compactmachines3:bigreactors_reactorcontrolrod",
+
+  "disabled": false,
+
+  "target-item": "bigreactors:reactorcontrolrod",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "bigreactors:ingotmetals",
+  "catalyst-meta": 2,
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_device1",
+      "meta": 3
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    },
+    "c":{
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 2
+    },
+    "d":{
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 5
+    },
+    "e": {
+      "id": "immersiveengineering:storage",
+      "meta": 5
+    }
+  },
+  "shape": [
+    [
+      ["b", "b", "b"],
+      ["b", "a", "b"],
+      ["b", "b", "b"]
+    ],
+    [
+      ["d", "d", "d"],
+      ["d", "c", "d"],
+      ["d", "d", "d"]
+    ],
+    [
+      ["e", "e", "e"],
+      ["e", "c", "e"],
+      ["e", "e", "e"]
+    ]
+  ]
+
+}

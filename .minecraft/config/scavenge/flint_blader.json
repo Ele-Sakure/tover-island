@@ -1,0 +1,44 @@
+{"block_pools":
+    [
+        {
+            "name":"flint_blader",
+            "type":{    
+                "type":"block",
+                "name":"contenttweaker:knife_stone"},
+            "clicktype":"right",
+            "properties":[
+            {
+                "type": "add_hunger",
+                "exhaustion": "true",
+                "amount": "15.1f"
+            },
+            {
+                "type": "drop_items"
+            },
+            {
+                "type": "damage_item",
+                "amount": "1"
+            },
+            {
+                "type": "play_sound",
+                "name": "block.stone.hit"
+            },
+            {
+                "type": "require_item_list",
+                "items": [
+                    {"name": "minecraft:flint"}
+                ]
+            },
+            {
+                "type": "consume_block",
+                "chance": 50,
+                "dropBlock": false
+            }
+        ],
+            "drops":[{
+                "name":"contenttweaker:flint_blader"
+            }],
+            "disableJEI":"true"
+        }
+    ]
+}

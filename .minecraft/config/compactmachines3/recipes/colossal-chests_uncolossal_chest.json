@@ -1,0 +1,45 @@
+{
+  "name": "compactmachines3:colossalchests:uncolossal_chest",
+
+  "disabled": false,
+
+  "target-item": "colossalchests:uncolossal_chest",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "storagedrawers:upgrade_storage",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "colossalchests:chest_wall",
+      "meta": 0
+    },
+    "b": {
+      "id": "colossalchests:colossal_chest",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      ["a", "a", "a"],
+      ["a", "a", "a"],
+      ["a", "a", "a"]
+    ],
+    [
+      ["a", "a", "a"],
+      ["a", "b", "a"],
+      ["a", "a", "a"]
+    ],
+    [
+      ["a", "a", "a"],
+      ["a", "a", "a"],
+      ["a", "a", "a"]
+    ]
+  ]
+
+}

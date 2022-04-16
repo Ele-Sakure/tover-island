@@ -1,0 +1,45 @@
+{
+  "name": "compactmachines3:modularmachinery_blockcasing3",
+
+  "disabled": false,
+
+  "target-item": "modularmachinery:blockcasing",
+  "target-meta": 3,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "thermalfoundation:material",
+  "catalyst-meta": 24,
+
+  "input-types": {
+    "a": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    },
+    "b": {
+      "id": "chisel:iron",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      ["a", "a", "a"],
+      ["a", "b", "a"],
+      ["a", "a", "a"]
+    ],
+    [
+      ["a", "b", "a"],
+      ["b", "_", "b"],
+      ["a", "b", "a"]
+    ],
+    [
+      ["a", "a", "a"],
+      ["a", "b", "a"],
+      ["a", "a", "a"]
+    ]
+  ]
+
+}

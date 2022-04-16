@@ -1,0 +1,49 @@
+{
+  "name": "compactmachines3:modularmachinery_blockcasing_4",
+
+  "disabled": false,
+
+  "target-item": "modularmachinery:blockcasing",
+  "target-meta": 4,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "modularmachinery:itemmodularium",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "tp:hardened_stone",
+      "meta": 0
+    },
+    "b": {
+      "id": "tp:reinforced_obsidian",
+      "meta": 0
+    },
+    "c": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      ["a", "b", "a"],
+      ["b", "c", "b"],
+      ["a", "b", "a"]
+    ],
+    [
+      ["b", "c", "b"],
+      ["c", "_", "c"],
+      ["b", "c", "b"]
+    ],
+    [
+      ["a", "b", "a"],
+      ["b", "c", "b"],
+      ["a", "b", "a"]
+    ]
+  ]
+
+}

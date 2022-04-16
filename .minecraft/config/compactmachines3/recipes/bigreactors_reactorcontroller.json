@@ -1,0 +1,69 @@
+{
+  "name": "compactmachines3:bigreactors_reactorcontroller",
+
+  "disabled": false,
+
+  "target-item": "bigreactors:reactorcontroller",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "skyresources:baseitemcomponent",
+  "catalyst-meta": 3,
+
+  "input-types": {
+    "a": {
+      "id": "bigreactors:reactorcasing",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 6
+    },
+    "c": {
+      "id": "immersiveengineering:metal_decoration0",
+      "meta": 7
+    }
+  },
+  "shape": [
+    [
+      ["a", "a", "a","a","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "a", "a","a","a"]
+    ],
+    [
+      ["a", "c", "c","c","a"],
+      ["c", "b", "b","b","c"],
+      ["c", "b", "b","b","c"],
+      ["c", "b", "b","b","c"],
+      ["a", "c", "c","c","a"]
+    ],
+    [
+      ["a", "c", "c","c","a"],
+      ["c", "b", "b","b","c"],
+      ["c", "b", "b","b","c"],
+      ["c", "b", "b","b","c"],
+      ["a", "c", "c","c","a"]
+    ],
+    [
+      ["a", "c", "c","c","a"],
+      ["c", "b", "b","b","c"],
+      ["c", "b", "b","b","c"],
+      ["c", "b", "b","b","c"],
+      ["a", "c", "c","c","a"]
+    ],
+    [
+      ["a", "a", "a","a","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "a", "a","a","a"]
+    ]
+  ]
+
+}

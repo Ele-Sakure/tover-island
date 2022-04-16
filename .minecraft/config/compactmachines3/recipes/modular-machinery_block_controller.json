@@ -1,0 +1,49 @@
+{
+  "name": "compactmachines3:modular-machinery_block_controller",
+
+  "disabled": false,
+
+  "target-item": "modularmachinery:blockcontroller",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "modularmachinery:itemmodularium",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "modularmachinery:blockcasing",
+      "meta": 0
+    },
+    "b": {
+      "id": "tp:colored_lamp",
+      "meta": 15
+    },
+    "c":{
+      "id": "minecraft:redstone_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      ["a", "a", "a"],
+      ["a", "a", "a"],
+      ["a", "a", "a"]
+    ],
+    [
+      ["a", "a", "a"],
+      ["a", "c", "a"],
+      ["a", "b", "a"]
+    ],
+    [
+      ["a", "a", "a"],
+      ["a", "a", "a"],
+      ["a", "a", "a"]
+    ]
+  ]
+
+}

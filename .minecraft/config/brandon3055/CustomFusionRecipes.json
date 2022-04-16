@@ -1,0 +1,158 @@
+[
+        {
+            "mode": "ADD",/*终极工作台*/
+                "result": "avaritia:extreme_crafting_table",
+                "catalyst": "avaritia:double_compressed_crafting_table",
+                "energy": 2000000000,
+                "tier": 3 ,
+                "ingredients": [
+                    "avaritia:resource,1,1",
+					"avaritia:resource,1,1",
+					"avaritia:resource,1,1",
+					"avaritia:resource,1,1",
+					"thermalfoundation:material,1,1028",
+					"ore:primordial_pearl",
+					"ic2:misc_resource,1,3"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*知识*/
+                "result": "projectex:knowledge_sharing_book",
+                "catalyst": "minecraft:book",
+                "energy": 2000000000,
+                "tier": 3 ,
+                "ingredients": [
+                    "projectex:final_star_shard,1,0",
+					"projectex:final_star_shard,1,0",
+					"projectex:final_star_shard,1,0",
+					"projectex:final_star_shard,1,0",
+					"projectex:matter,1,11",
+					"projectex:matter,1,11",
+					"projectex:matter,1,11"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*龙种子*/
+                "result": "mysticalagriculture:draconium_seeds",
+                "catalyst": "mysticalagriculture:crafting,1,21",
+                "energy": 20000000,
+                "tier": 2 ,
+                "ingredients": [
+                    "draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1",
+					"draconicevolution:draconium_block,1,1"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*中子种子*/
+                "result": "mysticalagradditions:neutronium_seeds",
+                "catalyst": "mysticalagradditions:insanium,1,1",
+                "energy": 2000000000,
+                "tier": 3 ,
+                "ingredients": [
+                    "avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0",
+					"avaritia:block_resource,1,0"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*觉醒龙种子*/
+                "result": "mysticalagradditions:awakened_draconium_seeds",
+                "catalyst": "mysticalagradditions:insanium,1,1",
+                "energy": 2000000000,
+                "tier": 3 ,
+                "ingredients": [
+                    "draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0",
+					"draconicevolution:draconic_block,1,0"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*矩阵锭*/
+                "result": "avaritia:resource,1,1",
+                "catalyst": "avaritia:resource",
+                "energy": 20000000,
+                "tier": 2 ,
+                "ingredients": [
+                    "minecraft:nether_star,2,0",
+					"minecraft:nether_star,2,0",
+					"minecraft:nether_star,2,0"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*狄奥尼*/
+                "result": "taiga:dyonite_ingot",
+                "catalyst": "draconicevolution:draconic_energy_core",
+                "energy": 10000000,
+                "tier": 3 ,
+                "ingredients": [
+                    "draconicevolution:chaotic_core,1,0",
+					"draconicevolution:chaos_shard,1,0",
+					"draconicevolution:dragon_heart,1,0",
+					"taiga:palladium_ingot,1,0",
+					"taiga:proxii_ingot,1,0",
+					"taiga:triberium_ingot,1,0",
+					"taiga:vibranium_ingot,1,0",
+					"taiga:prometheum_ingot,1,0",
+					"taiga:abyssum_ingot,1,0",
+					"taiga:eezo_ingot,1,0"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*狄奥尼*/
+                "result": "ic2:te,1,92",
+                "catalyst": "ic2:te,1,61",
+                "energy": 100000000000,
+                "tier": 3 ,
+                "ingredients": [
+                    "taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0",
+					"taiga:yrdeen_ingot,1,0"
+                ]
+        },
+		
+		{
+            "mode": "ADD",/*钻石晶格*/
+                "result": "avaritia:resource",
+                "catalyst": "extrautils2:unstableingots,1,2",
+                "energy": 2000000,
+                "tier": 1 ,
+                "ingredients": [
+                    "rftools:infused_diamond,5,0",
+					"botania:manaresource,5,2",
+					"minecraft:diamond,5,0",
+					"rftools:infused_diamond,5,0",
+					"botania:manaresource,5,2",
+					"minecraft:diamond,5,0"
+                ]
+        }
+]

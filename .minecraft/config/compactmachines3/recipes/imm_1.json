@@ -1,0 +1,76 @@
+
+{
+    "name": "imm_1",
+  
+    "disabled": false,
+  
+    "target-item": "immersiveengineering:stone_device",
+    "target-meta": 0,
+    "target-count": 1,
+  
+    "duration": 500,
+  
+    "symmetrical": true,
+  
+    "catalyst": "immersiveengineering:tool",
+    "catalyst-meta": 0,
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:stone_decoration",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}

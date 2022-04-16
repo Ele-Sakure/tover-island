@@ -1,0 +1,2 @@
+//硬到难以置信的小麦面棍
+recipes.addShapeless(<tconstruct:spaghetti>,[<harvestcraft:pastaitem>,<harvestcraft:fruitpunchitem>,<ore:itemSalt>,<harvestcraft:flouritem>,<harvestcraft:heavycreamitem>,<forestry:propolis:1>]);

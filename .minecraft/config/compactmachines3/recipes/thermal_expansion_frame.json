@@ -1,0 +1,93 @@
+{
+  "name": "compactmachines3:thermal_expansion_frame",
+
+  "disabled": false,
+
+  "target-item": "thermalexpansion:frame",
+  "target-meta": 0,
+  "target-count": 2,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "taiga:uru_ingot",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "mekanism:basicblock",
+      "meta": 8
+    },
+    "b": {
+      "id": "taiga:osram_block",
+      "meta": 0
+    },
+    "c": {
+      "id": "ic2:glass",
+      "meta": 0
+    },
+    "d": {
+      "id": "taiga:eezo_block",
+      "meta": 0
+    },
+    "e": {
+      "id": "extrautils2:opinium",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "c",
+        "e:A",
+        "c"
+      ],
+      [
+        "b",
+        "c",
+        "b"
+      ]
+    ],
+    [
+      [
+        "d",
+        "d",
+        "d"
+      ],
+      [
+        "d",
+        "c",
+        "d"
+      ],
+      [
+        "d",
+        "d",
+        "d"
+      ]
+    ]
+  ]
+  
+}

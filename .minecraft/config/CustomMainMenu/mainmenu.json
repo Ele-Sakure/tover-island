@@ -1,0 +1,222 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:top.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 270,
+            "height" : 48,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "孤独肝帝",
+            "posX" : -460,
+            "posY" : -120,
+            "width" : 80,
+            "height" : 30,
+			"imageWidth": 420,
+			"imageHeight": 200,
+			"alignment": "right_center",
+			"texture": "mainmenu:Button.png",
+			"tooltip": "单人游戏",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "组团肝",
+            "posX" : -460,
+            "posY" : -90,
+            "width" : 80,
+            "height" : 30,
+			"imageWidth": 420,
+			"imageHeight": 200,
+			"alignment": "right_center",
+			"texture": "mainmenu:Button.png",
+			"tooltip": "多人游戏",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "看看有什么",
+            "posX" : -460,
+            "posY" : -60,
+            "width" : 80,
+            "height" : 30,
+			"imageWidth": 420,
+			"imageHeight": 200,
+			"alignment": "right_center",
+			"texture": "mainmenu:Button.png",
+			"tooltip": "管理mod",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "",
+            "posX" : -460,
+            "posY" : -30,
+            "width" : 30,
+            "height" : 30,
+			"imageWidth": 200,
+			"imageHeight": 200,
+			"alignment": "right_center",
+			"texture": "mainmenu:icon.png",
+			"tooltip": "设置",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : " ",
+            "posX" : -50,
+            "posY" : 90,
+            "width" : 30,
+            "height" : 30,
+			"imageWidth": 200,
+			"imageHeight": 200,
+			"alignment": "right_center",
+			"texture": "mainmenu:out.png",
+			"tooltip": "退出",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "语言",
+            "posX" : -430,
+            "posY" : -30,
+            "width" : 50,
+            "height" : 30,
+			"imageWidth": 420,
+			"imageHeight": 200,
+			"alignment": "right_center",
+			"texture": "mainmenu:Button.png",
+			"tooltip": "语言",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		
+		"QQ": {
+			"text" : " ",
+			"posX" : -50,
+            "posY" : -130,
+            "width" : 30,
+            "height" : 30,
+			"imageWidth": 200,
+			"imageHeight": 200,
+			"tooltip": "加入QQ群",
+			"texture" : "mainmenu:QQ.png",
+			"alignment":"bottom_right",
+			"action" : {
+				"type" : "openLink",
+				"link" : "https://jq.qq.com/?_wv=1027&k=5qY7dZt"
+			}
+		},
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -178,
+            "posY" : 900,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "hoverText" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+		"changelog":{
+          "text":"作者:ganta_dg",
+		  "color": "16776960",
+		  "hoverColor": "12326679",
+          "posX" : 400,
+          "posY" : 40,
+          "color" : -1,
+          "alignment" : "left_center"
+        },
+		"changelog2":{
+          "text":"参与者:dashu_dada",
+		  "color": "16776960",
+		  "hoverColor": "12326679",
+          "posX" : 400,
+          "posY" : 50,
+          "color" : -1,
+          "alignment" : "left_center"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        
+        "background":{
+            "image" : "",
+            "slideshow":{
+                "images" : ["mainmenu:001.png",
+							"mainmenu:002.png",
+							"mainmenu:003.png",
+							"mainmenu:004.png"],
+                "displayDuration" : 30,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}

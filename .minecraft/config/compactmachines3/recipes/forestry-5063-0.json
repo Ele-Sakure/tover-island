@@ -1,0 +1,81 @@
+{
+  "name": "compactmachines3:forestry-5063-0",
+
+  "disabled": false,
+
+  "target-item": "forestry:fabricator",
+  "target-meta": 0,
+  "target-count": 1,
+
+  "duration": 2000,
+
+  "symmetrical": true,
+
+  "catalyst": "forestry:hardened_machine",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "skyresources:lightmatterblock",
+      "meta": 0
+    },
+    "c": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 2
+    },
+	"d": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 1
+    },
+    "e": {
+      "id": "skyresources:casing",
+      "meta": 12
+    },
+	"f": {
+      "id": "minecraft:stained_glass",
+      "meta": 14
+    },
+    "g": {
+      "id": "minecraft:stained_glass",
+      "meta": 13
+    }
+  },
+  "shape": [
+    [
+      ["a", "a", "a","a","a"],
+      ["a", "e", "e","e","a"],
+      ["a", "e", "e","e","a"],
+      ["a", "e", "e","e","a"],
+      ["a", "a", "a","a","a"]
+    ],
+    [
+      ["a", "d", "d","d","a"],
+      ["d", "_", "_","_","d"],
+      ["d", "_", "c","_","d"],
+      ["d", "_", "_","_","d"],
+      ["a", "f", "f","f","a"]
+    ],
+    [
+      ["a", "d", "d","d","a"],
+      ["d", "_", "_","_","d"],
+      ["d", "_", "c","_","d"],
+      ["d", "_", "_","_","d"],
+      ["a", "g", "g","g","a"]
+    ],
+    [
+      ["a", "c", "c","c","a"],
+      ["c", "_", "_","_","c"],
+      ["c", "_", "c","_","c"],
+      ["c", "_", "_","_","c"],
+      ["a", "c", "c","c","a"]
+    ],
+    [
+      ["a", "a", "a","a","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "c", "c","c","a"],
+      ["a", "a", "a","a","a"]
+    ]
+  ]
+
+}

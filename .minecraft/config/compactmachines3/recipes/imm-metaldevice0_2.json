@@ -1,0 +1,53 @@
+{
+  "name": "compactmachines3:imm-metal-device-1",
+
+  "disabled": false,
+
+  "target-item": "immersiveengineering:metal_device0",
+  "target-meta": 1,
+  "target-count": 1,
+
+  "duration": 200,
+
+  "symmetrical": true,
+
+  "catalyst": "minecraft:redstone",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "immersiveengineering:metal_device0",
+      "meta": 0
+    },
+    "b": {
+      "id": "immersiveengineering:treated_wood",
+      "meta": 0
+    },
+    "c":{
+      "id": "thermalfoundation:storage",
+      "meta": 0
+    },
+    "d": {
+      "id": "immersiveengineering:sheetmetal",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      ["b", "b", "b"],
+      ["b", "d", "b"],
+      ["b", "b", "b"]
+    ],
+    [
+      ["d", "c", "d"],
+      ["c", "a", "c"],
+      ["d", "c", "d"]
+    ],
+    [
+      ["b", "b", "b"],
+      ["b", "b", "b"],
+      ["b", "b", "b"]
+    ]
+  ]
+
+}
